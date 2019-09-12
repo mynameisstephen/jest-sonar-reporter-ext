@@ -1,4 +1,8 @@
-# jest-sonar-reporter
+# jest-sonar-reporter-ext
+
+Fork of [jest-sonar-reporter](https://github.com/3dmind/jest-sonar-reporter) with updated Jest reporter api from [BertschiAG](https://github.com/BertschiAG/jest-sonar-reporter/tree/reporter-support)
+
+# Original docs
 
 [![Build Status](https://travis-ci.org/3dmind/jest-sonar-reporter.svg?branch=master)](https://travis-ci.org/3dmind/jest-sonar-reporter)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=jest-sonar-reporter&metric=alert_status)](https://sonarcloud.io/dashboard?id=jest-sonar-reporter)
@@ -109,12 +113,12 @@ For example: Overwrite the path were the report will be stored.
     }
   }
 }
-``` 
+```
 
 Use the `NODE_ENV` variable to activate the environment specific configuration.
 ```shell
 NODE_ENV=test npm run test
-``` 
+```
 
 ## Usage
 
